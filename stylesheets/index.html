@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="assets/fb-share.png">
+  <meta name="author" content="Univesp">
+  <meta name="description" property="og:description" content="">
+  <title>Univesp | Tabela Periódica</title>
+  <link rel="shortcut icon" href="https://apps.univesp.br/common/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;600&family=Patua+One&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+  <link rel="stylesheet" href="https://apps.univesp.br/common/rea-geral-2.1.css">
+  <link rel="stylesheet" href="stylesheets/nav_footer.css">
+  <link rel="stylesheet" href="stylesheets/secao-1.css">
+  <link rel="stylesheet" href="stylesheets/secao-2.css">
+</head>
+
+<body class="d-flex flex-column">
+  <nav>
+    <div class="container">
+      <div class="logo">
+        <a class="pularNavegacao" href="#conteudoPrincipal">Pular para Conteúdo Principal</a>
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/colorida-positiva.svg" alt="Link para site institucional. Logotipo da universidade formado pela palavra Univesp, sendo a letra V estilizada.">
+        </a>
+      </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Opções de Compartilhamento">share</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="sharing"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main id="conteudoPrincipal">
+    <div class="container d-lg-none text-center" id="celular">
+      <div class="container">
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/logo-univesp.svg" alt="Logo da Univesp" width="200px" class="img-responsive center-block" style="margin-top:4rem">
+        </a>
+      </div>
+      <img src="https://apps.univesp.br/common/aviso-tela.gif" alt="Computador Animado" height="117px" width="160px" class="img-responsive center-block" style="margin-top:3rem">
+      <div style="margin-top:.5rem">
+        <p>
+          <span style="font-family:Barlow; color:#fff" size="10rem"><b>OPS!</b></span>
+        </p>
+        <p>
+          <span style="font-family:Verdana;color: #fff;" size="3rem">Visualize este recurso em um computador, em janela com largura mínima de 992px.</span>
+        </p>
+      </div>
+    </div>
+    <section id="secao-inicial" tabindex="0">
+      <div class="container" id="secao-inicial-caixa">
+        <div id="secao-inicial-caixa1">
+          <h1 id="secao-inicial-titulo" tabindex="0">Tabela periódica acessível</h1>
+          <p tabindex="0">A Tabela Periódica é uma ferramenta vital na química, fornecendo informações essenciais sobre os elementos que compõem o nosso mundo. No entanto, muitas vezes, essas informações são apresentadas de maneira complexa e visual, tornando-as inacessíveis para pessoas com deficiência visual. É por isso que desenvolvemos este REA, com o objetivo de tornar a Tabela Periódica uma fonte de conhecimento acessível a todos. Nossa missão é proporcionar a você uma experiência de aprendizado inclusiva e informativa.</p>
+          <p tabindex="0">Esperamos que com este recurso você possa explorar e conhecer todos os elementos que compõem o universo da química. </p>
+          <p tabindex="0">Bons estudos!</p>
+        </div>
+        
+        <div id="secao-inicial-caixa-da-imagem">
+          <img id="secao-inicial-img" src="assets/rea-tabela-periódica_ilustração.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="intrucoes" tabindex="0">
+      <div class="container">
+        <span class="titulo-instrucoes">Instruções</span>
+
+        <ul style="width: 95%; margin-top: 20px; font-family: 'Open Sans'; font-weight: 800;">
+          <li><p>Navegue pela tabela utilizando as setas do teclado, quando um elemento for selecionado, você escutará o nome do elemento. Após selecionar o elemento, ao apertar a tecla "enter" você ouvirá as propriedades: símbolo, número atômico, massa e classificação.</p></li>
+          <li><p>Quando selecionado o elemento, as propriedades aparecerão na parte superior da tabela.</p></li>
+          <li><p>Por convenção todos os símbolos são escritos com letras maiúsculas, os elementos que possuem duas letras, a primeira letra é maiúscula e a segunda letra minúscula.</p></li>
+          <li><p>Para navegar pela tabela, desabilite o leitor de tela apertando as teclas insert + s.</p></li>
+        </ul> 
+      </div>
+    </section>
+
+    <section id="secao-tabela" tabindex="0">
+      <div class="container" id="secao-tabela-caixa-1">
+        <h2 id="secao-tabela-titulo">Tabela Periódica dos Elementos</h2>
+        <div class="secao-button">
+          <button type="button" class="button-cor button-layout" onclick="removerFolhaDeEstilo()">Versão com Cor</button>
+          <button type="button" class="button-sem-cor button-layout" onclick="adicionarFolhaDeEstilo()">Versão sem Cor</button>
+        </div>
+        <div id="secao-tabela-caixa-tabela">
+          <div id="tabela">
+            <div class="familia" id="col-1">
+            </div>
+            <div class="familia" id="col-2">
+            </div>
+            <div class="familia" id="col-3">
+            </div>
+            <div class="familia" id="col-4">
+            </div>
+            <div class="familia" id="col-5">
+            </div>
+            <div class="familia" id="col-6">
+            </div>
+            <div class="familia" id="col-7">
+            </div>
+            <div class="familia" id="col-8">
+            </div>
+            <div class="familia" id="col-9">
+            </div>
+            <div class="familia" id="col-10">
+            </div>
+            <div class="familia" id="col-11">
+              <!-- tabela com as descrições dos elementos -->
+              <section class="tabelaDetalhe">
+                <!--
+                <div class="tabelaDetalheContent">
+                  <p class="tabelaDetalheP hidrogeneo">HIDROGÊNIO</p>
+                  <ul class="tabelaDetalheUl">
+                      <li class="tabelaDetalheLi bold">Elemento:</li>
+                      <li class="tabelaDetalheLi">Hidrogênio</li>
+                  </ul>
+                  <ul class="tabelaDetalheUl">
+                      <li class="tabelaDetalheLi bold">Símbolo:</li>
+                      <li class="tabelaDetalheLi">H</li>
+                  </ul>
+                  <ul class="tabelaDetalheUl">
+                      <li class="tabelaDetalheLi bold">Número atômico:</li>
+                      <li class="tabelaDetalheLi">1</li>
+                  </ul>
+                  
+                  <ul class="tabelaDetalheUl">
+                      <li class="tabelaDetalheLi bold">Massa atômica:</li>
+                      <li class="tabelaDetalheLi">1,007 u</li>
+                  </ul>
+                  <ul class="tabelaDetalheUl">
+                      <li class="tabelaDetalheLi bold">Classificação:</li>
+                      <li class="tabelaDetalheLi">Não metal</li>
+                  </ul>
+                </div>
+                -->
+              </section>
+
+              <!-- tabela com as descrições dos elementos -->
+            </div>
+            <div class="familia" id="col-12">
+            </div>
+            <div class="familia" id="col-13">
+            </div>
+            <div class="familia" id="col-14">
+            </div>
+            <div class="familia" id="col-15">
+            </div>
+            <div class="familia" id="col-16">
+            </div>
+            <div class="familia" id="col-17">
+            </div>
+            <div class="familia" id="col-18">
+            </div>
+          </div>
+          <div id="lantanideos"></div>
+          <div id="actinedeos"></div>
+          <div id="tabela-legenda-1">
+            <div>
+              <div>METAIS</div>
+            </div>
+            <div>
+              <div class="metal-alcalino legenda-desc">
+                <span>Metais alcalinos</span>
+                <span><img src="https://apps.univesp.br/tabela-periodica-acessivel/icones/1.metaisAlcalinos.svg" alt=""></span>
+              </div>
+              <div class="metal-alcalino-terroso legenda-desc">
+                <span>Metais alcalinoterrosos</span>
+                <span><img src="https://apps.univesp.br/tabela-periodica-acessivel/icones/2.metaisAlcalinoTerrosos.svg" alt=""></span>
+              </div>
+              <div class="actinideos legenda-desc">
+                <span>Actinídios</span>
+                <span><img src="https://apps.univesp.br/tabela-periodica-acessivel/icones/3.actinidios.svg" alt=""></span>
+              </div>
+              <div class="lantanideos legenda-desc">
+                <span>Lantanídios</span>
+                <span><img src="https://apps.univesp.br/tabela-periodica-acessivel/icones/4.lantanidios.svg" alt=""></span>
+              </div>
+              <div class="metais-de-transicao legenda-desc">
+                <span>Metais de transição</span>
+                <span><img src="https://apps.univesp.br/tabela-periodica-acessivel/icones/5.metaisDeTransicao.svg" alt=""></span>
+              </div>
+              <div class="metais-representativos legenda-desc">
+                <span>Outros Metais</span>
+                <span><img src="https://apps.univesp.br/tabela-periodica-acessivel/icones/6.outrosMetais.svg" alt=""></span>
+              </div>
+            </div>
+          </div>
+          <div id="tabela-legenda-2">
+            <div>
+              <div>SEMIMETAIS</div>
+              <div>NÃO METAIS</div>
+            </div>
+            <div>
+              <div class="semi-metais legenda-desc">
+                <span>Semimetais</span>
+                <span><img style="width: 15%;" src="https://apps.univesp.br/tabela-periodica-acessivel/icones/7.semimetais.svg" alt=""></span>
+              </div>
+              <div style="width: 172.3px;" class="nao-metais legenda-desc">
+                <span>Não metais</span>
+                <span><img src="https://apps.univesp.br/tabela-periodica-acessivel/icones/8.naoMetais.svg" alt=""></span>
+              </div>
+              <div style="width: 172.3px;" class="halogenios legenda-desc">
+                <span>Halogênios</span>
+                <span><img src="https://apps.univesp.br/tabela-periodica-acessivel/icones/9.halogenios.svg" alt=""></span>
+              </div>
+              <div style="width: 172.3px;" class="gases-nobres legenda-desc">
+                <span>Gases nobres</span>
+                <span><img src="https://apps.univesp.br/tabela-periodica-acessivel/icones/10.gasesNobres.svg" alt=""></span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="intrucoes" tabindex="0">
+      <div class="container">
+        <span class="titulo-instrucoes">Referências</span>
+
+        <div>
+          <div class="referencia-box">
+            <p><strong>IUPAC Periodic Table of the Elements</strong>, International Union of Pure and Applied Chemistry</p>
+          </div>
+
+          <div class="referencia-box" style="margin-top: 25px;">
+            <p><strong>Uma representação acessível da Tabela Periódica para estudantes daltônicos</strong>, Pedro S. Vasconcellos e Maurícius S. Pazinato</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container d-flex justify-content-between">
+      <div class="cred-rea">
+          <div>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="http://apps.univesp.br/common/license_MIT_2020.txt" target="_blank">MIT</a>.
+          Você pode utilizá-lo, compartilhá-lo e modificá-lo.</div>
+          <div><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></div>
+          <div><a href="https://github.com/univesp/tabela-periodica-acessivel" target="_blank" aria-label="GitHub" style="white-space:nowrap;">GitHub <i class="fab fa-github"></i></a></div>
+          <div>Compartilhe: <div class="sharing"></div></div>
+      </div>
+      <div class="aval-rea d-flex">
+        <a class="btn btn-secondary" href="https://forms.office.com/r/pafLU9jcds" target="_blank">Avaliar este recurso</a>
+        <a class="btn btn-secondary" href="https://forms.office.com/r/BU3heRJ9ZP" target="_blank">Reportar erro</a>
+      </div>
+    </div>
+  </footer>
+  <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h6>Governo do Estado de São Paulo</h6>
+          <p>Secretaria de Ciência, Tecnologia e Inovação</p>
+          <h6>UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO - UNIVESP</h6>
+          <p><span class="funcao">Presidente</span>Marcos Augusto Francisco Borges</p>
+          <p><span class="funcao">Diretora Acadêmica</span>Lubienska Cristina Lucas Jaquiê Ribeiro</p>
+          <h6>Equipe</h6>
+          <p><span class="funcao">Coordenação</span>Wesley de Souza Lima</p>
+          <p><span class="funcao">Roteirização e Design Instrucional</span>Mirtes Andreassa Nunes</p>
+          <p><span class="funcao">Ilustração</span>Henrique Inhauser Caldas</p>
+          <p><span class="funcao">Layout</span>Henrique Inhauser Caldas</p>
+          <p><span class="funcao">Programação</span>Alberto Ortiz Mendes, Caique da Cunha Silva e Gabriel Gallo</p>
+        </div>
+        <div class="modal-footer">
+          <p>Junho/2024</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://apps.univesp.br/common/jquery-ui-touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+    var share = $(".sharing");
+    var page_title = $(document).attr('title');
+    var page_url = window.location.href;
+    share.jsSocials({
+      shares: [
+        {
+          share: "facebook",
+          logo: "fab fa-facebook-f",
+        },
+        {
+          share: "twitter",
+          logo: "fab fa-twitter",
+        },
+        {
+          share: "whatsapp",
+          logo: "fab fa-whatsapp",
+        },
+      ],
+      url: page_url,
+      text: 'Confira o REA ' + page_title + '.',
+      showLabel: false,
+      showCount: false,
+      shareIn: "popup",
+    });
+  </script>
+  <script type="text/javascript" src="javascripts/baixo_cima.js"></script>
+  <script type="text/javascript" src="javascripts/events.js"></script>
+  <script type="text/javascript" src="javascripts/auxiliar.js"></script>
+  <script src="https://apps.univesp.br/common/analytics.js"></script>
+</body>
+
+</html>

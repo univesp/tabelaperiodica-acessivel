@@ -1,0 +1,150 @@
+body {
+  background-color: #FFF;
+}
+
+nav{
+  background-color: #6946b9;
+}
+
+main{
+  padding-top: 0px!important;
+  padding-bottom: 0px!important;
+}
+
+#secao-inicial{
+  padding-top: 3rem;
+  background-color: #6547ba;
+}
+
+#secao-inicial-caixa{
+  display: flex;
+  height: 450px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#secao-inicial-titulo{
+  color: #22ff75;
+  margin-bottom: 30px;
+  font-family: 'Patua One';
+  font-size: 46px;
+}
+
+#secao-inicial-caixa1{
+  width: 48%;
+}
+
+#secao-inicial-caixa-da-imagem{
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#secao-inicial-caixa1 > p{
+  color: white;
+}
+
+#secao-inicial-caixa1 > p:nth-of-type(1){
+  margin-bottom: 0px!important;
+}
+
+#secao-inicial-img{
+  max-width: 340px;
+}
+
+#intrucoes{
+  background-color: #fff;
+  font-family: 'Patua One';
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.titulo-instrucoes{
+  font-size: 46px;
+  color: #6547ba;
+  margin-left: 21px;
+}
+
+.referencia-box{
+  border: 3px solid #6547ba;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin-top: 15px;
+}
+
+.referencia-box > p{
+  font-family: 'Open Sans', sans-serif;
+  color: #6547ba;
+  font-size: 17px;
+  margin-left: 25px;
+  position: relative;
+  top: 8px;
+}
+
+@media (max-width: 1200px) {
+  #secao-inicial-caixa {
+    height: 520px;
+  }
+  #secao-inicial-titulo {
+    font-size: 38px;
+  }
+}
+@media (max-width: 992px) {
+  #secao-inicial-caixa {
+    height: 680px;
+  }
+  #secao-inicial-titulo {
+    font-size: 29px;
+  }
+  #celular{
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  #secao-inicial-caixa {
+    flex-direction: column;
+    height: auto;
+  }
+  #secao-inicial-caixa1 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #secao-inicial-caixa-da-imagem {
+    width: 100%;
+    justify-content: center;
+  }
+  #secao-inicial-img {
+    max-width: 60%;
+    margin-bottom: 45px;
+    align-items: center;
+  }
+  #secao-inicial-titulo {
+    text-align: center;
+    font-size: 45px;
+  }
+  #secao-inicial{
+    display: none;
+  }
+  #secao-tabela{
+    display: none;
+  }
+  main{
+    background-color: #6e45b8;
+  }
+  #celular{
+    display: block;
+  }
+  #intrucoes{
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  #secao-inicial-titulo {
+    
+  }
+}
+
+
+

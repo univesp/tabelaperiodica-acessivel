@@ -1,0 +1,357 @@
+#secao-tabela{
+    padding-top: 3rem;
+    background-color: white;
+    padding-bottom: 50px;
+}
+#secao-tabela-caixa-1{
+    background-color: white;
+}
+#secao-tabela-caixa-tabela{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#secao-tabela-titulo{
+    margin-bottom: 50px;
+    text-align: center;
+    color: #6547ba;
+    font-size: 46px;
+    font-family: 'Patua One';
+}
+
+.familia{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: calc(100% / 18 - 2px);
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.elemento{
+    width: 100%;
+    padding: 2px 2px 10px 2px;
+    margin: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.indice{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.indice > span > img{
+    width: 16px;
+}
+.sigla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Barlow';
+}
+#tabela{
+    display: flex;
+    width: 100%;
+}
+#lantanideos{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+#actinedeos{
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+#lantanideos > .elemento, #actinedeos > .elemento{
+
+}
+.metal-alcalino{
+    background-color: #DC64D8;
+}
+.metal-alcalino-terroso{
+    background-color: #DEA2DE;
+}
+.actinideos{
+    background-color: #F4493B;
+}
+.lantanideos{
+    background-color: #FF982A;
+}
+.metais-de-transicao{
+    background-color: #FFC9A2;
+}
+.metais-representativos{
+    background-color: #FAE331;
+}
+.semi-metais{
+    background-color: #CFEABF;
+}
+.nao-metais{
+    background-color: #49E777;
+}
+.halogenios{
+    background-color: #B2D6F7;
+}
+.gases-nobres{
+    background-color: #4B9AFF;
+}
+.desconhecidos{
+    background-color: #F5F1E9;
+}
+.hidrogeneo{
+    background-color: #49E777;
+}
+
+.focus{
+    background-color: #000;
+    color: white;
+}
+.focus img.icone-elemento {
+    filter: invert(1);
+}
+.blur{
+    background-color: green;
+}
+.vazio{
+    opacity: 0;
+    cursor: initial!important;
+}
+
+#tabela-legenda-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Barlow';
+}
+
+#tabela-legenda-1 > div{
+    display: flex;
+}
+
+#tabela-legenda-1 > div:nth-of-type(1){
+    width: 100%;
+    background-color: #d0d0d0;
+    padding: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow';
+    font-weight: bold;
+}
+
+#tabela-legenda-1 > div:nth-of-type(2){
+    width: 100%;
+    justify-content: space-between;
+}
+
+#tabela-legenda-1 > div:nth-of-type(2) > div{
+    width: calc(100% / 6 - 5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 7px;
+}
+
+#tabela-legenda-2{
+    display: flex;
+    flex-direction: column;
+    width: 59.5%;
+    margin-top: 30px;
+}
+
+#tabela-legenda-2 > div{
+    display: flex;
+    gap: 3px;
+}
+
+#tabela-legenda-2 > div:nth-of-type(1){
+    width: 100%;
+}
+
+#tabela-legenda-2 > div:nth-of-type(1) > div{
+    padding: 10px;
+    margin-right: 2px;
+    background-color: #d0d0d0;
+}
+
+#tabela-legenda-2 > div:nth-of-type(1) > div:nth-of-type(1){
+    width: calc(20% - 5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Barlow';
+}
+
+#tabela-legenda-2 > div:nth-of-type(1) > div:nth-of-type(2){
+    width: calc(80.5% - 5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Barlow';
+}
+
+#tabela-legenda-2 > div:nth-of-type(1) > div:nth-of-type(3){
+    width: calc(20% - 5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5e4;
+    font-weight: bold;
+    font-family: 'Barlow';
+}
+
+#tabela-legenda-2 > div:nth-of-type(2){
+    width: 100%;
+    gap: 5px;
+}
+
+#tabela-legenda-2 > div:nth-of-type(2) > div{
+    width: calc(100% / 5 - 5px);
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#tabela-legenda-2 > div:nth-of-type(2) > div:nth-of-type(2),
+#tabela-legenda-2 > div:nth-of-type(2) > div:nth-of-type(3),
+#tabela-legenda-2 > div:nth-of-type(2) > div:nth-of-type(4){
+    width: calc(100% / 5 - 7px);
+}
+
+#tabela-legenda-2 > div:nth-of-type(2) > div:nth-of-type(5){
+    width: calc(100% / 5 - 4px);
+}
+
+.legenda-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.legenda-desc > span > img{
+    width: 10%;
+}
+
+.tabela-legenda-3{
+    padding: 30px 77px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-weight: bold;
+
+    
+    background-color: #d0d0d0;
+    width: 59.5%;
+    margin-top: 5px;
+    padding: 14px 9px 0px 0;
+}
+
+
+
+/* botao */
+.secao-button{
+    display: flex;
+    justify-content:center;
+}
+
+.secao-button > button{
+    width: 320px;
+    height: 70px;
+    margin: 0 15px 50px;
+}
+
+.button-layout{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-cor{
+    background-color: #6547ba;
+    color:aliceblue;
+    border:0px;
+}
+
+.button-sem-cor{
+    background-color: white;
+}
+
+/* tabela */
+.tabelaDetalhe{
+    
+    color: aliceblue;
+    width: 835%;
+    height: 100%;
+    padding: 0;
+    margin-bottom: 40px;
+    cursor:default;
+}
+
+.tabelaDetale2{
+    color: aliceblue;
+    width: 835%;
+    height: 100%;
+    padding: 0;
+    margin-bottom: 40px;
+    cursor:default;
+    background-color: red;
+}
+
+.tabelaDetalheP{
+    padding: 5px 0 5px 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.tabelaDetalheUl{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.tabelaDetalheLi{
+    padding-right: 10px;
+    color: #333;
+    font-weight: 400;
+}
+
+.tabelaDetalheContent{
+    background-color: rgb(237, 237, 237);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+@media (max-width: 1200px) { 
+    .indice {
+        gap:5px;
+    }
+    .indice > span > img{
+        width: 14px;
+    }    
+
+    .containe{
+        max-width: 992px;;
+    }
+}

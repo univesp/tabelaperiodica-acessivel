@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+.metal-alcalino{
+    background-color: #fff;
+}
+.metal-alcalino-terroso{
+    background-color: #fff;
+}
+.actinideos{
+    background-color: #fff;
+}
+.lantanideos{
+    background-color: #fff;
+}
+.metais-de-transicao{
+    background-color: #fff;
+}
+.metais-representativos{
+    background-color: #fff;
+}
+.semi-metais{
+    background-color: #fff;
+}
+.nao-metais{
+    background-color: #fff;
+}
+.halogenios{
+    background-color: #fff;
+}
+.gases-nobres{
+    background-color: #fff;
+}
+.desconhecidos{
+    background-color: #fff;
+}
+.hidrogeneo{
+    background-color: #fff;
+}
+
+.focus{
+    background-color: #000;
+    color: #fff;
+}
+.blur{
+    background-color: #222222;
+}
+
+.familia{
+    margin: 0;
+}
+
+.indice{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 11px;
+}
+
+.indice > span > img {
+    width: 16px;
+}
+
+.elemento{
+    border:2px solid black;
+    border-bottom: 2.5px solid black;
+    margin: 0;
+    padding: 2px 0 10.5px;
+}
+
+.tabelaDetalhe{
+    width: 800%;
+    border:0;
+    margin-bottom: 40px;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.tabelaDetalheP{
+    border:3px solid black;
+    border-bottom: 1px solid black;
+}
+
+.legenda-desc{
+    border:2px solid black;
+    font-size: 14px;
+    
+    padding: 7px;
+}
+
+.button-cor{
+    background-color: #fff;
+    color:#6547ba;
+    border:4px solid #6547ba;
+}
+
+.button-sem-cor{
+    background-color: #000;
+    color: #fff
+}
+
+#tabela {
+    display: flex;
+    width: 103.6%;
+    justify-content: flex-end;
+}
+
+@media (max-width: 1200px) {
+    .elemento{
+        padding:1px 0 13px;
+        border:2px solid black;
+    }
+    .indice{
+        gap: 5px;
+    }
+    
+    .indice > span > img {
+        width: 14px;
+    }
+    #tabela {
+        width: 104%;
+    }
+  }
+
+@media (max-width: 992px) {
+    .indice{
+        gap: 5px;
+        font-size: .8rem;
+    }
+
+    .indice > span > img {
+        width: 10px;
+    }
+
+    /* .sigla {
+        font-size: 1rem;
+    } */
+}
